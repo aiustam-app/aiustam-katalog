@@ -1,6 +1,6 @@
 {
   "sema_surumu": 1,
-  "guncellendi": "2026-10-18T09:46:56.986Z",
+  "guncellendi": "2026-10-31T13:19:51.471Z",
   "kayitlar": [
     {
       "id": "playwright-mcp",
@@ -40057,6 +40057,50 @@
       "eklendi": "2026-10-18",
       "erisim": null,
       "onizleme": "https://raw.githubusercontent.com/skymanbp/autoshade/main/docs/images/showcase-canyon-reverse-fit.jpg"
+    },
+    {
+      "id": "agent-qa",
+      "ad": "agent-qa",
+      "tip": "arac",
+      "kategori": "kod-otomasyon",
+      "aciklama": "Web ve mobil testler için kalıcı memidex belleği, doğrulanmış kendini geliştirme, MCP ve incelenebilir yürütme kanıtları sunar. Model maliyetleri kullanıma bağlıdır.",
+      "kimin_icin": "Web, Android ve iOS uygulamalarında işlevsel ve regresyon testleri yapan geliştiriciler",
+      "zorluk": "orta",
+      "kurulum": [
+        {
+          "baslik": "Çalışma ortamını hazırla",
+          "aciklama": "Node.js 24+ ve proje kurulumu için resmî kılavuzu izle: https://vostride.com/docs/agent-qa/quickstart",
+          "komut": null
+        },
+        {
+          "baslik": "Modeli ve test hedefini yapılandır",
+          "aciklama": "Kullanacağın model sağlayıcısını ve web veya mobil test hedefini resmî belgelere göre yapılandır. Model ve isteğe bağlı cihaz hizmeti ücretleri ayrıca uygulanabilir.",
+          "komut": null
+        },
+        {
+          "baslik": "MCP sunucusunu bağla",
+          "aciklama": "Yapılandırılmış projede, uyumlu MCP istemcisinin stdio sunucu komutu olarak kullan. İstemci ayarları: https://vostride.com/docs/agent-qa/mcp",
+          "komut": "npx agent-qa mcp"
+        }
+      ],
+      "kaynak": "https://vostride.com",
+      "yildiz": 912,
+      "son_guncelleme": "2026-10-31",
+      "lisans": "FSL-1.1-ALv2",
+      "usta_onayli": false,
+      "son_kontrol": null,
+      "durum": "kontrol_gerekli",
+      "etiketler": [
+        "test",
+        "web",
+        "mobil",
+        "mcp",
+        "bellek"
+      ],
+      "eklendi": "2026-10-31",
+      "erisim": null,
+      "ornek": null,
+      "onizleme": null
     }
   ],
   "promptlar": [
